@@ -178,8 +178,9 @@
     width: 100%;
     object-fit: contain;
     z-index: 1;
+    margin-bottom: 4rem;
   }
-
+  
   .overlay_circle {
     position: absolute;
     left: 0;
@@ -188,6 +189,7 @@
     z-index: 0;
     width: 100%;
     height: 90%;
+    margin-bottom: 2rem;
   }
 
   @media screen and (max-width: 1200px) {

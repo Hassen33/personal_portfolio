@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
+import TypeWriterEffect from 'react-typewriter-effect';
+// import './styles.css';
 
 const scaleVariants = {
   whileInView: {
@@ -33,8 +35,26 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Front-end Developer</p>
-          <p className="p-text">Freelancer</p>
+          <h3>I'm a</h3>
+          <TypeWriterEffect
+        textStyle={{
+          fontFamily: 'Red Hat Display',
+          color: '#3F3D56',
+          fontWeight: 500,
+          fontSize: '1.5em',
+        }}
+        startDelay={2000}
+        cursorColor="#3F3D56"
+        multiText={[
+          'Front-end dev',
+          'Ux Designer',
+          'Freelancer'
+        
+        ]}
+        multiTextLoop={true}
+        multiTextDelay={1000}
+        typeSpeed={150}
+      />
         </div>
       </div>
     </motion.div>
@@ -59,7 +79,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {[images.javascript, images.react, images.figma].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>

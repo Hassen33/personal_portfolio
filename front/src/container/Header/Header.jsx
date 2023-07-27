@@ -46,7 +46,7 @@ const Header = () => (
         startDelay={2000}
         cursorColor="#3F3D56"
         multiText={[
-          'Front-end dev',
+          'full-stack dev',
           'Ux Designer',
           'Freelancer'
         

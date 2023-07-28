@@ -5,18 +5,29 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-        <a target="_blank" href="https://github.com/Hassen33">
+        <a
+          target="_blank"
+          href="https://github.com/Hassen33"
+          rel="noopener noreferrer"
+        >
           <BsGithub />
         </a>
       </div>
       <div>
-        <a  target="_blank" href="https://www.linkedin.com/in/hassen-bejaoui">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/hassen-bejaoui"
+          rel="noopener noreferrer"
+        >
           <BsLinkedin />
         </a>
       </div>
       <div>
-        <a target="_blank" href="https://www.behance.net/hassenbejaoui1">
+        <a
+          target="_blank"
+          href="https://www.behance.net/hassenbejaoui1"
+          rel="noopener noreferrer"
+        >
           <BsBehance />
         </a>
       </div>
